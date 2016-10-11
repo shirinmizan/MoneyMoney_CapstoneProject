@@ -16,7 +16,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     final Context context = this;
-    Button btn, btn1;
+    Button btn, btn1, btn2;
 
 
     // Button btn;
@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
     public void goTosignup(View v){
 
         Intent intent = new Intent(context, SignupActivity.class);
+        startActivity(intent);
+    }
+    public void goToGraph(View V){
+        Intent intent = new Intent(context, GraphActivity.class);
         startActivity(intent);
     }
     @Override

@@ -27,4 +27,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.+'
     compile 'com.android.support:design:24.+'
     testCompile 'junit:junit:4.12'
+
+
+    compile 'com.android.support:support-annotations:21.0.0'
+
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.google.code.gson:gson:2.3'
 }
